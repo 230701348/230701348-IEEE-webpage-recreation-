@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+            background-color: #5fa0d6;
+            display: flex;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            font-family: sans-serif;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 30px;
+        }
+        h1:hover{
+            cursor: default;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            background: linear-gradient(to bottom right,#65ace6,#5fa0d6);
+            height: 10cm;
+            width: 11cm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 40px;
+            box-sizing: border-box;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+        input{
+            font-size: 16px;
+            width: 100%;
+            height: 40px;
+            background: none;
+            border: none;
+            color: white;
+            position: relative;
+            border-bottom: 3px solid white;
+            outline: none;
+        }
+        input::placeholder{
+            color: white;
+        }
+        button{
+            width: 100%;
+            height: 40px;
+            background: rgb(22, 111, 207);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+        }
+        button:hover{
+            background: rgb(27, 128, 236);
+            cursor: pointer;
+        }
+        p:hover{
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button>Login</button>
+        <p>Forgot password?</p>
+    </div>
+</body>
+</html>
